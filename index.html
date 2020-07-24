@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Font Awesome Icon -->
+  <script src="https://kit.fontawesome.com/c268871fdd.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <style>
+    body,
+    .list-group-item,
+    .form-control,
+    .form-control:focus {
+      background: #ab2218;
+      color: #fff;
+    }
+
+    .container {
+      background: #cc281d;
+      padding: 50px;
+      border-radius: 15px;
+    }
+
+    .list-group-item,
+    .form-control,
+    .form-control:focus {
+      border: 1px solid #ab2218;
+    }
+
+    .delete {
+      cursor: pointer;
+    }
+  </style>
+  <title>Todo List</title>
+</head>
+
+<body class="vh-100 d-flex align-items-center">
+
+  <div class="container text-center w-50">
+    <h1 class="mb-5">Get Shit Done</h1>
+
+    <ul class="list-group todos"></ul>
+
+    <form class="add text-center my-4">
+      <label class="text-light">Add a new task...</label>
+      <input class="form-control m-auto" type="text" name="add" />
+    </form>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
